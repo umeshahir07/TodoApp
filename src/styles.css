@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.auth, .todolist {
+    margin: 20px;
+}
+
+input {
+    margin: 10px;
+    padding: 8px;
+}
+
+button {
+    margin: 10px;
+    padding: 8px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.tasks {
+    margin-top: 20px;
+}
